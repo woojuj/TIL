@@ -6,12 +6,12 @@ my_scores = [30, 90, 80, 40,50]
 class_scores = 
 [30, 90, 80, 40, 50]
 [100, 100, 100, 100, 100]   
-[0, 90, 30, 30, 20]
+[90, 90, 30, 30, 20]
 ```
 
 총합 Answer:
 ```py
-my_scores = [30, 90, 80, 40,50]
+my_scores = [30, 90, 80, 40, 50]
 sum = 0
 for i in range(0, 5):
     sum += my_scores[i]
@@ -19,8 +19,8 @@ print(sum)
 ```
 or class_scores의 총합일 경우:
 ```py
-class_scores = [[30, 90, 80, 40, 50], [100, 100, 100, 100, 100], [0, 90, 30, 30, 20]]
-sum = 1
+class_scores = [[30, 90, 80, 40, 50], [100, 100, 100, 100, 100], [90, 90, 30, 30, 20]]
+sum = 0
 for i in range(len(class_scores)):
     for j in range(len(class_scores[i])):
         sum += class_scores[i][j]
@@ -29,12 +29,14 @@ print(sum)
 
 평균 Answer
 ```py
-class_scores = [[30, 90, 80, 40, 50], [100, 100, 100, 100, 100], [0, 90, 30, 30, 20]]
+class_scores = [[30, 90, 80, 40, 50], [100, 100, 100, 100, 100], [90, 90, 30, 30, 20]]
 sum = 0
+total_length = 0
 for i in range(len(class_scores)):
+    total_length = len(class_scores[i])
     for j in range(len(class_scores[i])):
         sum += class_scores[i][j]
-        average = sum/(len(class_scores[i])*len(class_scores))
+        average = sum/(len(class_scores)*total_length)
 print(average)
 ```
 
