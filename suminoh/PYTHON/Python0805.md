@@ -48,4 +48,4 @@ def factorial(n):
 --------accumulator *= x  
 ----return accumulator  
 ### 함수
-반복으로 외우기 
+반복으로 외우기
