@@ -7,9 +7,6 @@ def total(n):
     return sum
 
 def average(n):
-    sum=0
-    for i in n:
-        sum+=i
-    return sum/len(n)
+    return total(n)/len(n)
 
 print(total(scores), average(scores))
