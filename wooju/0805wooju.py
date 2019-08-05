@@ -15,3 +15,5 @@ def pyeong(scores):
     return acc / len(scores)
 
 print(pyeong([80, 100, 70, 90, 40]))
+
+# 1234
