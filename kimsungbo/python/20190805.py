@@ -1,3 +1,13 @@
+'''
+when a list called scores is given as following:
+scores = [80, 100, 70, 90, 40]
+
+1. create total function
+2. create average function
+3. check if the functions are correct
+'''
+
+
 scores = [80, 100, 70, 90, 40]
 
 
