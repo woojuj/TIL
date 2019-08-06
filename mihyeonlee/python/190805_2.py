@@ -14,7 +14,7 @@ n = 3
 factorial = 1
 for i in range(1, n + 1):
     factorial *= i
-print(n, "!", "=", factorial)
+print(str(n) + "!", "=", factorial)
 ########################################################
 for x in range(2, 10):
     for i in range(1, 10):
@@ -94,10 +94,13 @@ for i in range(1, 11):
 ########################################
 #과제 1번 total 함수 만들기
 scores = [80, 100, 70, 90, 40]
-def total(a):
-    return sum(a)
+def total(list):
+    accumulator = 0
+    for i in range(0, len(list)):
+        accumulator += list[i]
+    return accumulator
 print(total(scores))
 #과제 2번 average 함수 만들기
 def average(b):
-    return sum(b)/len(b)
+    return total(b)/len(b)
 print(average(scores))
