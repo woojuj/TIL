@@ -13,9 +13,9 @@ print(add(80,100,70,90,40))
 
 **2. average 함수 만들기**
 ```python
-def AVG(a,b,c,d,e):
+def avg(a,b,c,d,e):
    return (a+b+c+d+e)//5
-print(AVG(80,100,70,90,40))
+print(avg(80,100,70,90,40))
 
 # 결과 값 = 76
 ```
