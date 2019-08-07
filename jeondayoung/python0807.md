@@ -1,10 +1,10 @@
 ## " GitHub을 사용해보자. "
 
-1.원격 저장소 (upstream) 
+    1.원격 저장소 (upstream) 
 
-2.원격 저장소 (origin)     
+    2.원격 저장소 (origin)     
 
-3.로컬 저장소           
+    3.로컬 저장소           
 
 
 ---------------------
@@ -12,4 +12,4 @@
 
 = git fetch upstream
 
-= git pull --rebase upstream master(*추천)
+= git pull --rebase upstream/master (*추천)
