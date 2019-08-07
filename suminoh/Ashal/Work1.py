@@ -11,8 +11,8 @@ def total(s):
 print(total(scores))
 
 
-def average(s):
-    average = total(s) / len(s)
+def average(score):
+    average = total(score) / len(score)
     return average
 
 
