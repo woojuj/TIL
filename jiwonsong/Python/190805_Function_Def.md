@@ -27,20 +27,20 @@ print(total_score)
 print(average)
 
 # total_score
-class_scores = [[30, 90, 80, 40, 50],
-                [100, 100, 100, 100, 100],
-                [90, 90, 30, 30, 20]]
+class_scores = [
+    [30, 90, 80, 40, 50],
+    [100, 100, 100, 100, 100],
+    [90, 90, 30, 30, 20]
+]
 total_score = 0
 total_length = 0
 
 for i in range(len(class_scores)):
-    total_length = len(class_scores[i])
-   for j in range(len(class_scores[i])):
-       total_score += class_scores[i][j]
-       average = sum/(len(class_scores)*total_length)
+    for j in range(len(class_scores[i])):
+        total_score += class_scores[i][j]
+        total_length = len(class_scores[i]*len(class_scores))
 
-print(total_score)
-print(average)
+print(total_score,total_score/total_length)
 ```
 
 2. 구구단 출력하기
@@ -153,3 +153,13 @@ scores = [80, 100, 70, 90, 40]
 2. average 함수 만들기
 3. 제대로 했는지 확인하기
 4. 코드를 GitHub 에 올리기
+
+```python
+def total(scores):
+    total_score = 0
+    for score in scores:
+        total_score += score
+    return total_score, total_score/len(scores)
+
+print(total(scores))
+```
