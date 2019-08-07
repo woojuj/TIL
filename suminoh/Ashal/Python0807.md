@@ -16,13 +16,11 @@
 * head를 바꿔주는 곳이므로 head가 되기 원하는 곳에서 rebase를 하면 됨
 
 ## 매일 해야되는 루틴
-
-1. fetch
-2. rebase (1,2 합쳐서 git pull --rebase upstream master)(status가 clean한 상태에서 해야 함)
-3. push origin 내 브랜치 이름
-4.      
-
-
-
-git checkout -b test upstream/master 또는 그 전 베이스로 checkout
-6t5=]-5544=4-=4-4=4
+1. branch생성 + checkout  
+ -> git checkout -b 브랜치 이름 upstream/master
+2. fetch
+3. rebase (1,2 합쳐서 git pull --rebase upstream master)(status가 clean한 상태에서 해야 함)
+4. 수정
+5. add
+6. commit
+7. push origin 내 브랜치 이름
