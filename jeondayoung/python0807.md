@@ -9,7 +9,8 @@
 
 ---------------------
 1번 원격 저장소 >>> 3번 로컬 저장소
+1. git remote add upstream 
 
-= git fetch upstream
+2. git fetch upstream
 
-= git pull --rebase upstream/master (*추천)
+[= git pull --rebase upstream/master (*추천)]
