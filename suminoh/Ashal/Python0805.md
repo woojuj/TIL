@@ -33,19 +33,19 @@ for i in range(0,5):<br>
 ----total_score += scores[i]<br>
 print(total+score)<br>
 <br>
-* 누산 4<br>
-for i in range(0, len(scores)):<br>
-----total_score += scores[i]<br>
-print(total_score)<br>
-<br>
+* 누산 4
+<pre><code>for i in range(0, len(scores)):
+    total_score += scores[i]
+print(total_score)
+</code></pre>
 
 ## 추상화 (Abstraction)
 * 함수를 이용하여 추상화<br>
 ### factorial 함수 만들기
-def factorial(n):  
-----accumulator = 1  
-----for x in range(1, n+1):  
---------accumulator *= x  
-----return accumulator  
+<pre><code>def factorial(n):  
+    accumulator = 1  
+    for x in range(1, n+1):  
+        accumulator *= x  
+    return accumulator</code></pre>  
 ### 함수
 반복으로 외우기
