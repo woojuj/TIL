@@ -8,3 +8,5 @@
 * 모두가 접근 할 수 있게 해서 협업할 수 있도록
 ## Pull Request
 * pull ; Fetch + Merge
+* 내 브랜치를 받아서 합쳐줘
+
