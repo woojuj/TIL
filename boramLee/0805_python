@@ -10,7 +10,7 @@ def total(scores):
 
 print(total(scores))
 
-#1.2 total 함수 만들기
+#1.2 total 함수 만들기.
 
 def total(scores):
     total_score = 0
