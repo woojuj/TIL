@@ -29,9 +29,9 @@ total_score += scores[4]<br>
 print(total_score)<br>
 <br>
 * 누산 3<br>
-for i in range(0,5):<br>
+<pre><code>for i in range(0,5):<br>
 ----total_score += scores[i]<br>
-print(total+score)<br>
+print(total+score)</pre></code>
 <br>
 * 누산 4
 <pre><code>for i in range(0, len(scores)):
@@ -46,6 +46,7 @@ print(total_score)
     accumulator = 1  
     for x in range(1, n+1):  
         accumulator *= x  
-    return accumulator</code></pre>  
+    return accumulator
+</code></pre>  
 ### 함수
 반복으로 외우기
