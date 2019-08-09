@@ -1,5 +1,10 @@
 scores = [80, 100, 70, 90, 40]
 
+def test_assert():
+    assert 2*2 == 4
+    assert 1*3 == 2
+    assert 1234*1234 == 2468
+
 def total(scores):
     accumulator = 0
     for i in range(0, len(scores)):
