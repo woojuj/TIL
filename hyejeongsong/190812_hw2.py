@@ -11,13 +11,21 @@ class_scores = [
 }
 ]
 
+
+# 국어 성적 합
+
 def class_total(class_scores,subject):
     scores = 0
     for i in range(0,len(class_scores)):
         scores += class_scores[i][subject]
     return scores
-assert class_total(class_scores, '국어') == 170
 
+def test_class_total(class_scores,subject):
+    assert class_total(class_scores, '국어') == 170
+
+
+
+# 전체 성적 합
 
 def class_total_all(class_scores):
     total_score = 0
